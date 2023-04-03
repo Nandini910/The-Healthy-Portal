@@ -1,0 +1,91 @@
+
+#logo{
+	width : 35px;
+	height : 35px;
+	float : left;
+	margin-top : 25px;
+	margin-left : 70px;
+}
+
+#Title{
+	float : left;
+	margin-left : 30px;
+	margin-top : 25px;
+	font-size : 26px;
+}
+ul{
+	psotion : fixed;
+	list-style-type : none;
+	top : 0;
+	margin : 0;
+	padding : 0;
+	overflow : hidden;
+	background-color : White;
+	box-shadow : 0px 10px 30px 2px #C0C0C0;
+}
+
+
+li{
+	margin : 0;
+	float : left;
+}
+ a{
+	margin : 0;
+	text-align : center;
+	text-decoration :none;
+	display : block;
+	padding : 25px;
+	font-size : 26px;
+	transition-duration : 1s;
+}
+
+ li a:hover{
+	
+	background-image : url("green1.avif");
+	color : white;
+}
+
+.nav{
+	float : right;
+}
+
+#LearnMore{
+	/*background-image : linear-gradient(to bottom right, #00FF77, #053D00); */
+	/*background-image : linear-gradient(to bottom right, #98FB91, #08B118); */
+	/*background-image : linear-gradient(to bottom right, #7CFF6B, #0A8270); */
+	background-image : linear-gradient(to bottom right, #6BE68E, #38663C); 
+	border : none;
+	color : white;
+	border-radius : 40px;
+	padding : 20px;
+	font-size : 20px;
+	position : absolute;
+	top : 50%;
+	left : 200px;
+	margin : 10px;
+	box-shadow : 0px 5px 30px 1px #808080;
+	font-family : Goudy Old Style;
+	transition-duration : 1s;
+}
+
+
+#LearnMore:hover{
+	background-image : linear-gradient(to bottom right, #98FB91, #08B118);
+	border-color : #378805;
+	color : #378805;
+}
+#heading{
+	position : absolute;
+	top : 30%;
+	font-size : 30px;
+	margin : 10px;
+	left : 200px;
+}
+
+#description{
+	position : absolute;
+	top : 40%;
+	font-size : 20px;
+	margin : 10px;
+	left : 200px;
+}
