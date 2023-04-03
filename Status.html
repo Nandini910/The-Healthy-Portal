@@ -1,0 +1,82 @@
+<html>
+	<head>
+	
+		<style>
+			body{
+				background-image : url("heathst1.jpg");
+				background-repeat : no-repeat;
+				background-size : cover;
+			}
+			
+			h2{
+				font-family : MV Boli;
+				position : absolute;
+				left : 32%;
+				top : 5%;
+			}
+			
+			ul{
+				
+				font-family : MV Boli;
+				position : absolute;
+				left : 32%;
+				top : 18%;
+			}
+			
+			#workout{
+				font-family : MV Boli;
+			}
+			
+			.inp{
+				background-color : transparent;
+				border : none;
+				border-bottom : 2px solid Black;
+				padding-bottom : 5px;
+				padding-left : 5px;
+				margin-left : 10px;
+			}
+			
+			button{
+				font-family : MV Boli;
+				position : absolute;
+				left : 45%;
+				top : 75%;
+				background-image : url("green1.avif");
+				width : 90px;
+				height : 40px;
+				color : white;
+				border-radius : 30px;
+			}
+			
+			a:visited{
+				color : white;
+				text-decoration : none;
+			}
+			
+			
+		</style>
+		
+		
+	</head>
+	
+<body>
+	<h2>Take a Note of How Healthy You're!</h2>
+	<button type="submit"><a href="SubmitHealth.html" target="_blank"> Submit </a></button>
+	
+	<ul>
+		<li>Enter Height : <input type="text" class ="inp" required></li><br>
+		<li>Enter Weight : <input type="text" class ="inp" required></li><br>
+		<li>Enter Age    : <input type="text" class ="inp" required></li><br>
+		<li>Enter Gender : <input type="text" class ="inp" required></li><br>
+		<li>Amount of workout : <select id ="workout" required>
+			<option value="blank">Select amount</option>
+			<option value="No-WO">Sedentary</option>
+			<option value="light">Lightly Active</option>
+			<option value="Moderate">Moderately Active</option>
+			<option value="Active">Active</option>
+			<option value="Very">Very Active</option>
+		</li><br>
+	</ul><br>
+
+</body>
+</html>
